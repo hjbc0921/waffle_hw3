@@ -1,16 +1,7 @@
-## Virtual Environment for React
-```bash
-$ python3 -m pip install virtualenv
-$ python3 -m venv reactEnv #name
-$ source reactEnv/bin/activate # ($ deactivate) to quit
-```
+## Likes or DisLikes
+![capture](/src/capture.png)
 
-## Start App
-```bash
-$ (reactEnv) npm init react-app like-or-dislike #name
-```
-
-### Directory Structure
+## Directory Structure
 ```
 waffle_hw3
 ├── README.md
@@ -26,6 +17,8 @@ waffle_hw3
     └── src
     	├── App.css
     	├── App.js
+    	├── LikeOrDisLike.js
+    	├── .js
     	├── App.test.js
     	├── index.css
     	├── index.js
@@ -41,5 +34,5 @@ $ (reactEnv) npm start #localhost:3000
 
 ## References
 * [Create React App - Getting Started](https://facebook.github.io/create-react-app/docs/getting-started)
-* [waffle seminar](https://waffle-skile.github.io/assignment/indiv3/))
+* [waffle seminar](https://waffle-skile.github.io/assignment/indiv3/)
 
