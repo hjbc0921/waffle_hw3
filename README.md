@@ -1,5 +1,7 @@
 ## Likes or DisLikes
-![capture](/src/capture.png)
+![capture](/like-or-dislike/src/capture.png)
+![capture](/like-or-dislike/src/capture2.png)
+![capture](/like-or-dislike/src/capture3.png)
 
 ## Directory Structure
 ```
@@ -18,18 +20,27 @@ waffle_hw3
     	├── App.css
     	├── App.js
     	├── LikeOrDisLike.js
-    	├── .js
+    	├── GetName.js
+    	├── Question.js        
+    	├── Result.js
     	├── App.test.js
     	├── index.css
     	├── index.js
     	├── logo.svg
+    	├── capture.png
+    	├── capture2.png
+    	├── capture3.png
     	└── serviceWorker.js
 ```
 
-## Run app in development mode
+## Dependency
+* [react-bootstrap](https://react-bootstrap.github.io)
+
+## Run app 
 ```bash
-$ (reactEnv) cd like-or-dislike
-$ (reactEnv) npm start #localhost:3000
+$ cd like-or-dislike
+$ npm install
+$ npm start 
 ```
 
 ## References
