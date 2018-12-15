@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Panel, Form, FormGroup, ControlLabel, FormControl, HelpBlock, Button } from 'react-bootstrap';
+import { Form, FormGroup, FormControl, Button } from 'react-bootstrap';
 
 class GetName extends Component {
   constructor(props, context) {
@@ -18,7 +18,7 @@ class GetName extends Component {
     return (
       <Form horizontal onSubmit={() => this.props.saveUserName(this.state.value)}>
         <FormGroup controlId="formInlineName">
-        <ControlLabel style={{margin:"0 0 20px 0"}}>당신의 이름을 입력해주세요.</ControlLabel>
+        <h3 style={{margin:"0 0 20px 0"}}>당신의 이름을 입력해주세요.</h3>
         <FormControl 
         style={{width:"50%",margin:"auto"}} 
         type="text" 
